@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ 
+.header{
+    background-color: rgb(187, 190, 183);
+    width: 100%;
+    display: flex;
+    justify-content:space-between ;
+}
+
+ul {
+    display: flex;
+
+}
+ 
+ul li{
+    list-style: none;
+    padding: 20px 20px;
+    padding-top: 25px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    }
+
+    
+.icon{
+    padding-right: 33px;
+    padding-top: 33px;
+    
+    
+}
+.fa-solid{
+    padding-right: 24px;
+}
+.name{
+    padding-left: 22px;
+    padding-top: 18px;
+}
+
+.about{
+    background-color: rgb(187, 190, 183);
+    height: 200px;
+    padding-top: 15%;
+    text-align: center;
+}
+.about h1{
+    font-size: 50px;
+}
+
+.image img{
+  margin-top: 63px;
+  margin-left: 44px;
+  width: 400px;
+   height: 390px;
+
+}
+
+.image-parent{
+    display: flex;
+}
+
+.paragrahy{
+    margin-top: 10%;
+    margin-left: 63px;
+}
+
+.paragrahy p{
+    padding-top: 22px;
+}
+
+.paragrahy h2{
+    padding-top: 33px;
+}
+
+.paragrahy h3{
+    color: rgb(106, 104, 104);
+    font-size: 18px;
+    padding-top: 33px;
+}
+
+.about2{
+    margin-top: 10%;
+    margin-left: 84px;
+}
+
+.about2 p{
+    padding-top: 33px;
+}
+
+.image2 img {
+    margin-top: 30%;
+    
+    width: 400px;
+ 
+
+}
+.about2-parent{
+    display: flex;
+    gap:40px;
+}
+.header2{
+    margin-top: 82px;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(186, 186, 186) ;
+   }
+   .inside{
+    
+    padding-top: 22px;
+    padding-right: 22px;
+   }
+ 
+ 
+   .fooder1{
+    padding-top: 32px;
+    padding-left: 33px;
+   }
+
+   .fooder1 p{
+    padding-top: 22px;
+   }
+ 
+   .fooder-parent{
+    background-color: rgb(154, 152, 152);
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+   }
+ @media (max-width:600px){
+    .image-parent{
+        display: grid;
+        grid-row: 100px;
+         
+    }
+    .menue{
+        display: none;
+    }
+
+    .image img{
+        width: 500px;
+    }
+
+    .about2-parent{
+        display: grid;
+        grid-row: 100px;
+    }
+   .image2 img{
+    width: 90%;
+    margin-left: 22px;
+    margin-right: 94px;
+    padding-right: 84px;
+   }
+  
+   .fooder-parent{
+    display: grid;
+    grid-template-columns: 100px;
+     
+    
+  
+
+ }
+ 
+ .fooder1{
+   padding-top: 32px;
+   padding-left: 33px;
+  }
+
+.fooder1 p{
+  padding-top: 22px;
+  padding-left: 100px;
+  width: 250px;
+  text-align: justify;
+  color: rgb(77, 76, 76);
+  
+    }
+   
+
+    .fooder1 h1{
+       font-size: 20px;
+       padding-left: 90px;
+    }
+.inside{
+ display: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+    

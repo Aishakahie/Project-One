@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ 
+.header{
+    background-color: rgb(187, 190, 183);
+    width: 100%;
+    display: flex;
+    justify-content:space-between ;
+}
+
+ul {
+    display: flex;
+
+}
+ 
+ul li{
+    list-style: none;
+    padding: 20px 20px;
+    padding-top: 25px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    }
+
+    
+.icon{
+    padding-right: 33px;
+    padding-top: 33px;
+    
+    
+}
+.fa-solid{
+    padding-right: 24px;
+}
+.name{
+    padding-left: 22px;
+    padding-top: 18px;
+}
+
+.contact{
+    background-color: rgb(187, 190, 183);
+    height: 200px;
+    padding-top: 15%;
+    text-align: center;
+}
+.contact h1{
+    font-size: 50px;
+}
+
+.part1-parent{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+}
+
+.part{
+    margin-top: 33px;
+    margin-left: 44px;
+}
+
+.part p{
+    padding-left: 43px;
+}
+
+ 
+ 
+
+ 
+
+
+.header2{
+    margin-top: 82px;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(186, 186, 186) ;
+   }
+   .inside{
+    
+    padding-top: 22px;
+    padding-right: 22px;
+   }
+ 
+    
+
+ 
+   .fooder1{
+    padding-top: 32px;
+    padding-left: 33px;
+   }
+ 
+   .fooder1 p{
+    padding-top: 22px;
+   }
+ 
+   .fooder-parent{
+    background-color: rgb(154, 152, 152);
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+   }
+
+
+   
+   @media (max-width:600px){
+
+     .menue{
+        display: none;
+     }
+
+    .part1-parent{
+        display: flex;
+        flex-direction: column;
+        
+    }
+     .inside{
+        display: none;
+         
+     }
+     .part h1{
+        font-size: 30px;
+
+     }
+
+     .part p{
+        padding-left: 33px;
+     }
+
+   }
